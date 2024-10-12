@@ -20,7 +20,7 @@ const displayBody = function (body) {
 // ================= Add variables =================
 const number = document.querySelector('.number');
 // create random number
-let secretNumber = Math.trunc(Math.random() * 20) + 1;
+let secretNumber = Math.trunc(Math.random() * 100) + 1;
 
 let score = 20;
 let highScore = 0;
@@ -68,7 +68,7 @@ document.querySelector('.check').addEventListener(
 document.querySelector('.again').addEventListener(
     'click', function () {
         score = '20';
-        secretNumber = Math.trunc(Math.random() * 20) + 1;
+        secretNumber = Math.trunc(Math.random() * 100) + 1;
         displayMessage('Start guessing...')
         scoreElement(score)
         number.textContent = '?';
