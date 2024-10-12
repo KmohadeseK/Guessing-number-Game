@@ -35,7 +35,7 @@ This project is built using basic JavaScript. HTML and CSS are also used for des
 
 >### Demo
 
-[You can try out the game here](https://kmohadesek.github.io/Guessing-number-Game/).
+[You can try out the game here](https://kmohadesek.github.io/Guessing-number-Game/)
 
 >### Conclusion
 
