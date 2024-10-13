@@ -28,7 +28,7 @@ const widthNumber = function (widthNum) {
 }
 
 // ================= Add variables =================
-// const number = document.querySelector('.number');
+
 // create random number
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
 let score = 20;
